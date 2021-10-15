@@ -3,8 +3,10 @@ import styled from 'styled-components';
 const SHeader = styled.div`
   background-color: rgb(47, 71, 105);
   animation-name: header;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-timing-function: ease-in-out;
+
+  box-shadow: 0px 5px 2px 0px rgb(52, 65, 83);
 
   @keyframes header {
     from {
