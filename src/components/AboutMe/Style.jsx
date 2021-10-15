@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 const SAbout = styled.div`
   overflow: hidden;
-  height: 93.6vh;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
 
   .myPic {
     margin-top: 0;
@@ -12,15 +13,6 @@ const SAbout = styled.div`
       border-radius: 8px;
       height: 90vh;
       margin: auto;
-
-      animation-name: pic;
-      animation-duration: 1s;
-      animation-timing-function: ease;
-      @keyframes pic {
-        from {
-          height: 90px;
-        }
-      }
     }
   }
 
@@ -42,15 +34,6 @@ const SAbout = styled.div`
     height: 90vh;
     text-align: center;
     border-radius: 50%;
-
-    animation-name: desc;
-    animation-duration: 700ms;
-    animation-timing-function: ease-in-out;
-    @keyframes desc {
-      from {
-        opacity: 0;
-      }
-    }
   }
 
   h1 {
@@ -70,19 +53,6 @@ const SAbout = styled.div`
 
   .title {
     width: 500px;
-
-    animation-name: title;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-
-    @keyframes title {
-      from {
-        margin-top: 200%;
-      }
-      to {
-        margin-top: 0;
-      }
-    }
   }
 `;
 

@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const SCareer = styled.div`
+  margin-bottom: 10vh;
   position: relative;
   @media (max-width: 450px) {
     height: 100%;
@@ -81,51 +82,6 @@ const SCareer = styled.div`
       @media (max-width: 450px) {
         width: 100%;
         padding: 10px;
-      }
-    }
-  }
-
-  .univ {
-    animation-name: slideUniv;
-    animation-duration: 500ms;
-    animation-timing-function: ease-out;
-    @keyframes slideUniv {
-      from {
-        margin-left: -200%;
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
-  }
-
-  .iesc {
-    animation-name: slideIesc;
-    animation-duration: 800ms;
-    animation-timing-function: ease-out;
-    @keyframes slideIesc {
-      from {
-        margin-left: -150%;
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
-  }
-
-  .wcs {
-    animation-name: slideWcs;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    @keyframes slideWcs {
-      from {
-        margin-right: 200%;
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
       }
     }
   }

@@ -2,8 +2,7 @@ import SHome from './Style';
 
 export default function Home() {
   return (
-    <SHome>
-      <div className="bgdeco" />
+    <SHome id="home">
       <div className="container">
         <div className="name">
           <h1>
@@ -17,7 +16,7 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              <img src="/img/Home/github.svg" alt="github" />
+              <img src="/img/Home/github.png" alt="github" />
             </a>
             <a
               href="https://www.linkedin.com/in/hacenehamroune/"
@@ -27,24 +26,23 @@ export default function Home() {
               <img src="/img/Home/linkedIn.png" alt="linkedIn" />
             </a>
             <div className="cv">
-              <p>CV pdf</p>
               <a
                 href="https://www.canva.com/design/DAEZTuKjWeM/6dg6YYyVBVsNvP9QtE6ZdA/view?utm_content=DAEZTuKjWeM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
                 target="_blank"
                 rel="noreferrer"
               >
                 <img src="/img/Home/cv.gif" alt="myCv" />
+                <p>CV pdf</p>
               </a>
             </div>
           </div>
         </div>
         <div className="about">
-          <div className="devPic">
-            <img src="/img/Home/devPic.jpg" alt="devPicture" />
-          </div>
-
           <div className="myPic">
-            <img src="/img/Home/myPic.JPG" alt="" />
+            <img src="/img/Home/myPic.JPG" alt="myPicture" />
+          </div>
+          <div className="devPic">
+            <img src="/img/Home/devPic.webp" alt="devPicture" />
           </div>
         </div>
       </div>

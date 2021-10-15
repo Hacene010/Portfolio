@@ -15,19 +15,6 @@ const SContact = styled.div`
     width: 45vw;
     overflow: hidden;
 
-    animation-name: contact;
-    animation-duration: 500ms;
-    animation-timing-function: ease-out;
-    @keyframes contact {
-      from {
-        margin-left: -200%;
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
-
     .pic {
       position: absolute;
       top: 10vh;
@@ -36,10 +23,11 @@ const SContact = styled.div`
       img {
         width: 37vw;
         height: 70vh;
-        border-radius: 50%;
+        border-radius: 40%;
       }
     }
   }
+
   .contact {
     width: 40vw;
     height: inherit;
@@ -60,14 +48,6 @@ const SContact = styled.div`
         font-size: 1.7rem;
 
         color: #9ed0c9;
-      }
-
-      .email {
-        display: flex;
-
-        p {
-          padding: 5px;
-        }
       }
 
       img {

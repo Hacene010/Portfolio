@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import SHeader from './Style';
 
 export default function Header() {
@@ -7,24 +6,27 @@ export default function Header() {
       <div className="burger-container">
         <nav>
           <ul>
-            <Link to="about">
+            <a href="#about">
               <li>A propos</li>
-            </Link>
+            </a>
 
-            <Link to="career">
+            <a href="#career">
               <li>Parcours</li>
-            </Link>
-            <Link to="/">
+            </a>
+
+            <a href="#home">
               <div className="logo">
                 <img src="/img/Header/logo.jpg" alt="logo" />
               </div>
-            </Link>
-            <Link to="achievments">
+            </a>
+
+            <a href="#achievments">
               <li>Réalisations</li>
-            </Link>
-            <Link to="/contact">
+            </a>
+
+            <a href="#contact">
               <li>Contact</li>
-            </Link>
+            </a>
           </ul>
         </nav>
       </div>

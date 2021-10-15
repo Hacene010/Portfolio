@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const SAchievements = styled.div`
+  margin-bottom: 5vh;
   .title {
     height: 15vh;
 
